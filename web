@@ -36,6 +36,7 @@ getgenv().GAG2Config = {
         ["Rocket Pop"] = 9999,
         ["Star Fruit"] = 1,
         ["Dragon's Breath"] = 9999,
+        ["Sun Bloom"] = 1,
     },
 
     SELL_FRUIT_MULTIPLIER = { ["Bamboo"] = 1, ["Mushroom"] = 1.5}, 
