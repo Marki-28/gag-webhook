@@ -6,19 +6,6 @@ getgenv().GAG2Config = {
     COLLECT_FRUIT_DELAY = 20,
 
     BUY_PET = {  -- ["Pet Name"] = Amount
-        ["Raccoon"] = 99, 
-        ["Firefly"] = 99, 
-        ["Big Unicorn"] = 99,
-        ["Big Turtle"] = 99,
-        ["Huge Unicorn"] = 99,
-        ["Huge Turtle"] = 99,
-        ["Rainbow Unicorn"] = 99,
-        ["Rainbow Turtle"] = 99,
-        ["Big GoldenDragonfly"] = 99,
-        ["Huge GoldenDragonfly"] = 99,
-        ["Rainbow GoldenDragonfly"] = 99,
-
-        ["Bunny"] = 6,
     },
 
     EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
@@ -26,11 +13,6 @@ getgenv().GAG2Config = {
     },
 
     PLANT_SEED = {  -- ["Seed Name"] = Amount
-        ["Bamboo"] = 400,
-        ["Mushroom"] = 400,
-        ["Green Bean"] = 200,
-        ["Venus Fly Trap"] = 5,
-        ["Venom Spitter"] = 5,
     },
 
     BUY_SEED = {  -- ["Seed Name"] = Buy Until Amount
