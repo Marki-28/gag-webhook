@@ -27,7 +27,7 @@ getgenv().GAG2Config = {
     SELL_FRUIT_MULTIPLIER = {}, 
     COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean", "Moon Bloom", "Dragon's Breath", "Venom Spitter", "Venus Fly Trap"},  -- Only collect fruit when have ANY mutation
     FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
-	SELL_ALL_DAILY_DEAL = 100000000,  -- Min "daily sell all" value
+	SELL_ALL_DAILY_DEAL = 10000000,  -- Min "daily sell all" value
     SELL_ALL_DELAY = 10,    
 
 	FOCUS_COLLECT_DROPPED_SEED = true,  -- set true if public server (instant collect), false for slightly slower collect
