@@ -99,7 +99,7 @@ getgenv().GAG2Config = {
     -- Auto Mail Config
     AUTO_MAIL_DELAY = 500,  -- Seconds
     AUTO_MAIL = {
-        ["Y4as0"] = {
+        ["zyzyx1213"] = {
             ["Sun Bloom"]            = "All",
             ["FireFly"]              = 1,
             ["Star Fruit"]           = "All",
