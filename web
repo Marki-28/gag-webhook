@@ -97,7 +97,7 @@ getgenv().GAG2Config = {
     EXPAND_PLOT = 2,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
 
     -- Auto Mail Config
-    AUTO_MAIL_DELAY = 500,  -- Seconds
+    AUTO_MAIL_DELAY = 120,  -- Seconds
     AUTO_MAIL = {
         ["zyzyx1213"] = {
             ["Sun Bloom"]            = "All",
