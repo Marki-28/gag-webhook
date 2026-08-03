@@ -1,6 +1,6 @@
-script_key = "NfhMUFsUCzremYNfsmuvVHtwYbCtVFwQ";
-
+script_key="zwugPbNocRkFFLlercOXoEkzxYABlEAY";
 getgenv().GAG2Config = {
+    WORLD = "FallHarvest",
     FPS_CAP = 5,  -- MUST USE 5+ FPS
     ADD_FRIEND = false,
     AUTO_UPDATE_RESTART = true,
@@ -9,49 +9,38 @@ getgenv().GAG2Config = {
     -- Pet Config
     MAX_PET_EQUIP = 6,
     BUY_PET = {  -- ["Pet Name"] = Buy Until Amount
+        ["Turkey"] = 4,
+        ["Swan"] = 2,
     },
 
     EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
-        {"Bunny", 6, 1},
+        {"Turkey", 4, 1},
+        {"Swan", 2, 2},
     },
 
     -- Plant Config
     PLANT_SEED = {  -- ["Seed Name"] = Plant Until Amount
+        ["Maple Cactus"] = 1,
+        ["Maple Tomato"] = 1,
+        ["Maple Corn"] = 1,
+        ["Maple Blueberry"] = 1,
+        ["Maple Strawberry"] = 1,
+        ["Maple Green Bean"] = 99,
+        ["Maple Tulip"] = 99,
+        ["Maple Carrot"] = 99,
+        ["Maple Bamboo"] = 9999,
     },
 
     -- Buy Config
     BUY_SEED = {  -- ["Seed Name"] = Buy Until Amount
-        ["Rocket Pop"] = 9999,
-        ["Carrot"] = 9999,
-        ["Strawberry"] = 9999,
-        ["Blueberry"] = 9999,
-        ["Tulip"] = 9999,
-        ["Tomato"] = 9999,
-        ["Apple"] = 9999,
-        ["Bamboo"] = 9999,
-        ["Corn"] = 9999,
-        ["Cactus"] = 9999,
-        ["Pineapple"] = 9999,
-        ["Mushroom"] = 9999,
-        ["Green Bean"] = 9999,
-        ["Banana"] = 9999,
-        ["Grape"] = 9999,
-        ["Coconut"] = 9999,
-        ["Mango"] = 9999,
-        ["Dragon Fruit"] = 9999,
-        ["Acorn"] = 9999,
-        ["Cherry"] = 10,
-        ["Sunflower"] = 10,
-        ["Fire Fern"] = 10,
-        ["Venus Fly Trap"] = 10,
-        ["Pomegranate"] = 10,
-        ["Poison Apple"] = 10,
-        ["Venom Spitter"] = 10,
-        ["Moon Bloom"] = 9999,
-        ["Sun Bloom"] = 9999,
-        ["Hypno Bloom"] = 9999,
-        ["Dragon's Breath"] = 9999,
-        ["Star Fruit"] = 9999,
+        ["Maple Carrot"] = 99,
+        ["Maple Bamboo"] = 9999,
+        ["Maple Mushroom"] = 9999,
+        ["Maple Green Bean"] = 99,
+        ["Maple Venom Spitter"] = 99,
+        ["Conifer Cone"] = 99,
+        ["Atlantic Giant Pumpkin"] = 99,
+        ["Amber Cranberry"] = 9999,
     },
 
     BUY_AUCTION = {},  -- ["Item Name"] = {Maximum Sheckle Price, Buy Until Amount}
@@ -59,33 +48,26 @@ getgenv().GAG2Config = {
 
     BUY_GEAR_MIN_SHECKLE = 1000000,
     BUY_GEAR = {  -- ["Gear Name"] = Buy Until Amount
-        ["Super Watering Can"]  = 9999,
-        ["Super Sprinkler"]     = 9999,
-        ["Trowel"]              = 9999,
-        ["Legendary Sprinkler"] = 9999,
-        ["Basic Pot"]           = 9999,
+        ["Super Syrup Watering Can"] = 9999,
+        ["Super Syrup Sprinkler"] = 9999,
+        ["Super Magic Mail"] = 9999,
+         ["Trowel"] = 9999,
     },
 
     -- Sell Config
-    SELL_FRUIT_MULTIPLIER = {},
+    SELL_FRUIT_MULTIPLIER = {
+    },
 
     SELL_ALL_DAILY_DEAL = 10000000,  -- Minimum Value to Trigger Daily "Sell All"
-    SELL_ALL_DELAY = 10,  -- Seconds
+    SELL_ALL_DELAY = 20,  -- Seconds
 
     -- Consumable Config
-    USE_SPRINKLER = {"Common sprinkler"},  -- "Sprinkler Name" (Only One Sprinkler Can Be Used at a Time)
+    USE_SPRINKLER = {},  -- "Sprinkler Name" (Only One Sprinkler Can Be Used at a Time)
     USE_WATERING_CAN = {},  -- "Watering Can Name"
     USE_WATERING_CAN_DELAY = 60,  -- Seconds
 
     -- Other Config
     COLLECT_PLANT_IF_MUTATED = {
-        "Bamboo",
-        "Mushroom",
-        "Green Bean",
-        "Moon Bloom",
-        "Dragon's Breath",
-        "Venom Spitter",
-        "Venus Fly Trap"
     },  -- Only Collect Fruit When It Has ANY Mutation
 
     FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} or ["Fruit Name"] = {"Gold", "Rainbow"}
@@ -94,45 +76,36 @@ getgenv().GAG2Config = {
     -- Set true for Public Servers to Collect Immediately
     -- Set false to Collect Slightly Slower
 
-    EXPAND_PLOT = 2,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
+    EXPAND_PLOT = 3,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
 
-    -- Auto Mail Config
-    AUTO_MAIL_DELAY = 120,  -- Seconds
-    AUTO_MAIL = {
-        ["zyzyx1213"] = {
-            ["Sun Bloom"]            = "All",
-            ["FireFly"]              = 1,
-            ["Star Fruit"]           = "All",
-            ["Rocket Pop"]           = "All",
-            ["Rainbow"]              = 25,
-            ["Gold"]                 = 25,
-            ["Mega"]                 = 10,
-            ["Legendary Sprinkler"]  = 10,
-            ["Super Sprinkler"]      = 3,
-            ["Super Watering Can"]   = 3,
-            ["Unicorn"]              = 1,
-            ["Raccoon"]              = 1,
-            ["Hypno Bloom"]          = "All",
-            ["Dragon's Breath"]      = "All",
-            ["Moon Bloom"]           = "All",
-            ["Bamboo"]               = 1000
-        },
-        
-        ["Y4as0"] = {
-            ["Trowel"]               = 200
-        }
-    },
+    -- Auto Mail Config 
+    AUTO_MAIL = { 
+    AUTO_MAIL_USERNAME = { "Y4as0", "zyzyx1213",  "manilacad6"},
+
+    AUTO_MAIL_ITEM_NAME = {
+    ["Maple Bamboo"] = 1000,
+    ["Gold"] = 15,
+    ["Rainbow"] = "All",
+    ["Maple Mushroom"] = 30,
+    ["Super Syrup Watering Can"] = 2,
+    ["Super Syrup Sprinkler"] = 2,
+    ["Super Magic Mail"] = "All",
+    ["Trowel"] = 200,
+    ["Atlantic Giant Pumpkin"] = "All"
+    }
+    },  -- ["Username"] = {["Item Name"] = Amount}
+    AUTO_MAIL_DELAY = 7200,  -- Seconds
     COLLECT_MAIL = true,
 
     -- Discord Config
-    WEBHOOK_PET_NAME = {"Marki"},
+    WEBHOOK_PET_NAME = {},
     WEBHOOK_PET_RARITY = {
         "Mythic",
         "Super",
         "Secret",
     },
 
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1464651600755691692/WO6NAfMhd_LB_JbyZksK3RNitjnjJ4xREbXtqWEbAIlHtHKwvdJLZmCBcF5U0ilzVf26",
+    WEBHOOK_URL = "",
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",  -- Personal Webhook
 
