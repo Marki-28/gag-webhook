@@ -80,7 +80,7 @@ getgenv().GAG2Config = {
 
     -- Auto Mail Config 
     AUTO_MAIL = { 
-        ["zyzyx1213"] = {
+        ["Y4as0"] = {
             ["Maple Bamboo"] = 1000,
             ["Gold"] = 15,
             ["Rainbow"] = "All",
@@ -88,7 +88,7 @@ getgenv().GAG2Config = {
             ["Super Syrup Watering Can"] = "All",
             ["Super Syrup Sprinkler"] = "All",
             ["Super Magic Mail"] = "All",
-            ["Trowel"] = 200,
+            ["Trowel"] = "All",
             ["Atlantic Giant Pumpkin"] = "All"
     }
     },  -- ["Username"] = {["Item Name"] = Amount}
