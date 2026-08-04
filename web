@@ -86,7 +86,7 @@ getgenv().GAG2Config = {
     ["Maple Bamboo"] = 1000,
     ["Gold"] = 15,
     ["Rainbow"] = "All",
-    ["Maple Mushroom"] = 30,
+    ["Maple Mushroom"] = "All",
     ["Super Syrup Watering Can"] = "All",
     ["Super Syrup Sprinkler"] = "All",
     ["Super Magic Mail"] = "All",
@@ -94,7 +94,7 @@ getgenv().GAG2Config = {
     ["Atlantic Giant Pumpkin"] = "All"
     }
     },  -- ["Username"] = {["Item Name"] = Amount}
-    AUTO_MAIL_DELAY = 7200,  -- Seconds
+    AUTO_MAIL_DELAY = 60,  -- Seconds
     COLLECT_MAIL = true,
 
     -- Discord Config
