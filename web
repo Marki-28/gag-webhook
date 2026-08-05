@@ -37,7 +37,6 @@ getgenv().GAG2Config = {
         ["Maple Bamboo"] = 9999,
         ["Maple Mushroom"] = 9999,
         ["Maple Green Bean"] = 99,
-        ["Maple Venom Spitter"] = 99,
         ["Conifer Cone"] = 99,
         ["Atlantic Giant Pumpkin"] = 99,
         ["Amber Cranberry"] = 9999,
@@ -89,6 +88,8 @@ getgenv().GAG2Config = {
             ["Super Syrup Sprinkler"] = "All",
             ["Super Magic Mail"] = "All",
             ["Trowel"] = "All",
+            ["Amber Cranberry"] = "All",
+            ["Maple Venom Spitter"] = "All",
             ["Atlantic Giant Pumpkin"] = "All"
     }
     },  -- ["Username"] = {["Item Name"] = Amount}
