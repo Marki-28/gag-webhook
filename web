@@ -84,9 +84,7 @@ getgenv().GAG2Config = {
 
     -- Auto Mail Config 
     AUTO_MAIL = { 
-        AUTO_MAIL_USERNAME = { "Y4as0", "zyzyx1213", "manilacad6" },
-
-        AUTO_MAIL_ITEM_NAME = {
+        ["zyzyx1213"] = { 
             ["Maple Bamboo"] = 1000,
             ["Gold"] = 15,
             ["Rainbow"] = "All",
