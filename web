@@ -83,21 +83,21 @@ getgenv().GAG2Config = {
     EXPAND_PLOT = 3,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
 
     -- Auto Mail Config 
-    AUTO_MAIL = { 
-        ["zyzyx1213"] = { 
-            ["Maple Bamboo"] = 1000,
-            ["Gold"] = 15,
-            ["Rainbow"] = "All",
-            ["Maple Mushroom"] = "All",
-            ["Super Syrup Watering Can"] = "All",
-            ["Super Syrup Sprinkler"] = "All",
-            ["Super Magic Mail"] = "All",
-            ["Trowel"] = "All",
-            ["Amber Cranberry"] = "All",
-            ["Maple Venom Spitter"] = "All",
-            ["Atlantic Giant Pumpkin"] = "All"
-    }
-    },  -- ["Username"] = {["Item Name"] = Amount}
+AUTO_MAIL_USERNAME = { "Y4as0", "zyzyx1213", "manilacad6" },
+
+    AUTO_MAIL_ITEM_NAME = {
+        ["Maple Bamboo"] = 1000,
+        ["Gold"] = 15,
+        ["Rainbow"] = "All",
+        ["Maple Mushroom"] = "All",
+        ["Super Syrup Watering Can"] = "All",
+        ["Super Syrup Sprinkler"] = "All",
+        ["Super Magic Mail"] = "All",
+        ["Trowel"] = "All",
+        ["Amber Cranberry"] = "All",
+        ["Maple Venom Spitter"] = "All",
+        ["Atlantic Giant Pumpkin"] = "All"
+    }, -- ["Username"] = {["Item Name"] = Amount}
     AUTO_MAIL_DELAY = 5400,  -- Seconds
     COLLECT_MAIL = true,
 
