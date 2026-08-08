@@ -10,6 +10,7 @@ getgenv().GAG2Config = {
     MAX_PET_EQUIP = 6,
     BUY_PET = {  -- ["Pet Name"] = Buy Until Amount
         ["ShadowDragon"] = 99,
+        ["Wolf"] = 1,
         ["Big Fox"] = 99,
         ["Big Wolf"] = 99,
         ["Mega Fox"] = 99,
@@ -19,8 +20,7 @@ getgenv().GAG2Config = {
     },
 
     EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
-        {"Turkey", 4, 1},
-        {"Swan", 2, 2},
+        {"Wolf", 6, 1},
     },
 
     -- Plant Config
