@@ -10,7 +10,7 @@ getgenv().GAG2Config = {
     MAX_PET_EQUIP = 6,
     BUY_PET = {  -- ["Pet Name"] = Buy Until Amount
         ["ShadowDragon"] = 99,
-        ["Wolf"] = 1,
+        ["Wolf"] = 6,
         ["Big Fox"] = 99,
         ["Big Wolf"] = 99,
         ["Mega Fox"] = 99,
@@ -84,7 +84,7 @@ getgenv().GAG2Config = {
     EXPAND_PLOT = 3,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
 
     -- Auto Mail Config 
-AUTO_MAIL_USERNAME = { "Y4as0", "zyzyx1213", "manilacad6" },
+AUTO_MAIL_USERNAME = { "Y4as0", "zyzyx1213", "manilacad6", "Tulokk19" },
 
     AUTO_MAIL_ITEM_NAME = {
         ["Maple Bamboo"] = 1000,
@@ -96,6 +96,7 @@ AUTO_MAIL_USERNAME = { "Y4as0", "zyzyx1213", "manilacad6" },
         ["Super Magic Mail"] = "All",
         ["Trowel"] = "All",
         ["Amber Cranberry"] = "All",
+        ["ShadowDragon"] = 1,
         ["Maple Venom Spitter"] = "All",
         ["Atlantic Giant Pumpkin"] = "All"
     }, -- ["Username"] = {["Item Name"] = Amount}
