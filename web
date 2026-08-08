@@ -60,6 +60,7 @@ getgenv().GAG2Config = {
 
     -- Sell Config
     SELL_FRUIT_MULTIPLIER = {
+       ["Atlantic Giant Pumpkin"] = 4,
     },
 
     SELL_ALL_DAILY_DEAL = 10000000,  -- Minimum Value to Trigger Daily "Sell All"
