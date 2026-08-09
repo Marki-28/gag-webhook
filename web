@@ -70,7 +70,7 @@ getgenv().GAG2Config = {
     -- Consumable Config
     USE_SPRINKLER = {},  -- "Sprinkler Name" (Only One Sprinkler Can Be Used at a Time)
     USE_WATERING_CAN = {},  -- "Watering Can Name"
-    USE_HARP_DELAY,
+    USE_HARP_DELAY = 360,
     USE_WATERING_CAN_DELAY = 60,  -- Seconds
 
     -- Other Config
