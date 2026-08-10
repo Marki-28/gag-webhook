@@ -32,18 +32,37 @@ getgenv().GAG2Config = {
         ["Maple Strawberry"] = 1,
         ["Maple Green Bean"] = 99,
         ["Maple Tulip"] = 99,
-        ["Maple Carrot"] = 99,
-        ["Maple Bamboo"] = 9999,
+        ["Maple Carrot"] = 5,
     },
 
     -- Buy Config
     BUY_SEED = {  -- ["Seed Name"] = Buy Until Amount
-        ["Maple Carrot"] = 99,
+        ["Maple Carrot"] = 9999,
+        ["Maple Strawberry"] = 9999,
+        ["Maple Blueberry"] = 9999,
+        ["Maple Tulip"] = 9999,
+        ["Maple Tomato"] = 9999,
+        ["Maple Apple"] = 9999,
         ["Maple Bamboo"] = 9999,
+        ["Maple Corn"] = 9999,
+        ["Maple Cactus"] = 9999,
+        ["Maple Pineapple"] = 9999,
         ["Maple Mushroom"] = 9999,
-        ["Maple Green Bean"] = 99,
-        ["Conifer Cone"] = 99,
-        ["Atlantic Giant Pumpkin"] = 99,
+        ["Maple Green Bean"] = 9999,
+        ["Maple Banana"] = 9999,
+        ["Maple Grape"] = 9999,
+        ["Maple Coconut"] = 9999,
+        ["Maple Mango"] = 9999,
+        ["Maple Dragon Fruit"] = 9999,
+        ["Maple Acorn"] = 9999,
+        ["Maple Cherry"] = 9999,
+        ["Maple Sunflower"] = 9999,
+        ["Atlantic Giant Pumpkin"] = 9999,
+        ["Maple Venus Fly Trap"] = 9999,
+        ["Maple Pomegranate"] = 999999,
+        ["Maple Poison Apple"] = 999999,
+        ["Maple Venom Spitter"] = 999999,
+        ["Conifer Cone"] = 999999,
         ["Amber Cranberry"] = 9999,
     },
 
@@ -89,7 +108,6 @@ getgenv().GAG2Config = {
 AUTO_MAIL_USERNAME = { "Y4as0", "zyzyx1213", "manilacad6", "Tulokk19" },
 
     AUTO_MAIL_ITEM_NAME = {
-        ["Maple Bamboo"] = 1000,
         ["Gold"] = 15,
         ["Rainbow"] = "All",
         ["Maple Mushroom"] = "All",
@@ -108,12 +126,11 @@ AUTO_MAIL_USERNAME = { "Y4as0", "zyzyx1213", "manilacad6", "Tulokk19" },
     -- Discord Config
     WEBHOOK_PET_NAME = {},
     WEBHOOK_PET_RARITY = {
-        "Mythic",
         "Super",
         "Secret",
     },
 
-    WEBHOOK_URL = "",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1464651600755691692/WO6NAfMhd_LB_JbyZksK3RNitjnjJ4xREbXtqWEbAIlHtHKwvdJLZmCBcF5U0ilzVf26",
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",  -- Personal Webhook
 
