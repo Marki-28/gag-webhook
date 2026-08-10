@@ -124,7 +124,7 @@ AUTO_MAIL_USERNAME = { "Y4as0", "zyzyx1213", "manilacad6", "Tulokk19" },
     COLLECT_MAIL = true,
 
     -- Discord Config
-    WEBHOOK_PET_NAME = {},
+    WEBHOOK_PET_NAME = {"ShadowDragon"},
     WEBHOOK_PET_RARITY = {
         "Super",
         "Secret",
