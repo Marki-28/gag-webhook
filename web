@@ -116,6 +116,8 @@ AUTO_MAIL_USERNAME = { "Y4as0", "zyzyx1213", "manilacad6", "Tulokk19" },
         ["Trowel"] = "All",
         ["Amber Cranberry"] = "All",
         ["ShadowDragon"] = 1,
+        ["Fox"] = 1,
+        ["Wolf"] = 1,
         ["Maple Venom Spitter"] = "All",
         ["Atlantic Giant Pumpkin"] = "All"
     }, -- ["Username"] = {["Item Name"] = Amount}
